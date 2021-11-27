@@ -39,7 +39,7 @@ jobs:
         run: yarn export
 
       - run: touch ./out/{.nojekyll,CNAME}
-      - run: echo 'elementail.js.org' > ./CNAME
+      - run: echo 'elementail.js.org' > ./out/CNAME
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
