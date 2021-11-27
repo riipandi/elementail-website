@@ -6,6 +6,7 @@
   },
   "plugins": ["@typescript-eslint", "simple-import-sort"],
   "extends": ["eslint:recommended", "next", "next/core-web-vitals", "plugin:@typescript-eslint/recommended", "prettier"],
+  "ignorePatterns": [".next/", "out/"],
   "rules": {
     "no-unused-vars": "off",
     "no-console": "warn",

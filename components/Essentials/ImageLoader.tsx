@@ -1,5 +1,3 @@
-import React from 'react'
-
 interface ImageLoaderProps {
   src: string
   width: number

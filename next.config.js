@@ -11,13 +11,11 @@ const nextConfig = {
     loader: 'cloudinary',
     path: '/'
   },
-  eslint: {
-    dirs: ['src']
-  },
+  eslint: { dirs: ['.'] },
   reactStrictMode: true,
   poweredByHeader: false,
-  basePath: isProd ? '/elementail-website' : null,
-  assetPrefix: isProd ? 'https://riipandi.github.io/elementail-website' : null
+  basePath: isProd ? '/' : null,
+  assetPrefix: isProd ? 'https://headunit.js.org' : null
 }
 
 module.exports = nextConfig

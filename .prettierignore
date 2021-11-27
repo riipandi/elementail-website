@@ -1,8 +1,14 @@
+.prettierrc
+.vercel/
+.github/
+.vscode/
 .cache/
+.next/
 out/
 dist/
+tsconfig.json
 package-lock.json
 package.json
 public/
 yarn.lock
-.vercel/
+*.md
