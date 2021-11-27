@@ -14,7 +14,7 @@ const nextConfig = {
   eslint: { dirs: ['.'] },
   reactStrictMode: true,
   poweredByHeader: false,
-  basePath: isProd ? '/' : null,
+  // basePath: isProd ? '/elementail-website' : null,
   assetPrefix: isProd ? 'https://headunit.js.org' : null
 }
 
