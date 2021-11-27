@@ -15,9 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     if (process.env.NODE_ENV !== 'development') {
       splitbee.init({
         token: process.env.SPLITBEE_TOKEN,
-        disableCookie: false,
-        scriptUrl: '/bee.js',
-        apiUrl: '/_hive'
+        disableCookie: false
       })
     }
   }, [])
