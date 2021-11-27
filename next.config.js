@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production'
+
 const nextConfig = {
   env: {
     MAINTENANCE_MODE: process.env.MAINTENANCE_MODE || false,
@@ -13,7 +15,8 @@ const nextConfig = {
     dirs: ['src']
   },
   reactStrictMode: true,
-  poweredByHeader: false
+  poweredByHeader: false,
+  assetPrefix: isProd ? 'https://riipandi.github.io/elementail-website' : ''
 }
 
 module.exports = nextConfig
