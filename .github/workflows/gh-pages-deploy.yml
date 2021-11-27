@@ -39,9 +39,10 @@ jobs:
         run: yarn export
 
       - name: Configuring Github Pages
-        run: touch ./out/.nojekyll
-        run: touch ./out/CNAME
-        run: echo 'headunit.js.org' > ./out/CNAME
+        run: |
+          touch ./out/.nojekyll
+          touch ./out/CNAME
+          echo 'headunit.js.org' > ./out/CNAME
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
