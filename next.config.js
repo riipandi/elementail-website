@@ -16,7 +16,8 @@ const nextConfig = {
   },
   reactStrictMode: true,
   poweredByHeader: false,
-  assetPrefix: isProd ? 'https://riipandi.github.io/elementail-website' : ''
+  basePath: isProd ? '/elementail-website' : '/',
+  assetPrefix: isProd ? 'https://riipandi.github.io/elementail-website' : '/'
 }
 
 module.exports = nextConfig

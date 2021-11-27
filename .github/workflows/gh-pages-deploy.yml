@@ -38,13 +38,13 @@ jobs:
       - name: Exporting static version of the app
         run: yarn export
 
-      - run: touch ./out/.nojekyll
-      - run: touch ./CNAME
+      - run: touch ./out/{.nojekyll,CNAME}
       - run: echo 'elementail.js.org' > ./CNAME
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
+          # token: xxx # This option defaults to the repository scoped GitHub Token.
           # repository-name: riipandi/elementail # Specify the github repository path.
           branch: gh-pages # The branch the action should deploy to.
           folder: out # The folder the action should deploy.
