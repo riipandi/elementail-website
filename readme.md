@@ -1,12 +1,14 @@
-![Github Cover](https://banners.beyondco.de/Next.js%20Tailwind%20Starter.png?theme=light&packageManager=&packageName=&pattern=pieFactory&style=style_1&description=A+starter+for+Next.js+with+Tailwind+CSS+and+Typescript.&md=1&showWatermark=1&fontSize=100px&images=template)
+![Github Cover](https://banners.beyondco.de/Headunit.png?theme=light&packageManager=&packageName=&pattern=architect&style=style_1&description=Headless+Content+Management+System+powered+by+Next.js&md=1&showWatermark=1&fontSize=100px&images=chip)
 
 <div align="center">
-    <strong>Elementail</strong>
+    <strong>Headless Content Management System powered by Next.js</strong>
 </div>
 
 ![separator](public/images/separator.jpg)
 
-Just another UI Kit using Tailwind CSS.
+A Headless CMS powered by [Next.js](https://nextjs.org/). Pre-configured with absolute import,
+[TailwindUI](https://tailwindui.com), [Framer Motion](https://www.framer.com/motion/), 
+and some goodies.
 
 ## Quick Start
 
@@ -15,6 +17,7 @@ yarn         # install dependencies
 yarn dev     # serve with hot reload at localhost:3000
 yarn build   # build for production
 yarn start   # launch generated build
+yarn export  # export generated build into static files
 ```
 
 > For detailed explanation on how things work, check out [Next.js docs](https://nextjs.org).

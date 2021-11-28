@@ -28,7 +28,7 @@ const Maintenance = () => {
               </p>
               <div className='mt-6'>
                 <BasicLink
-                  href='https://aris.web.id'
+                  href='https://twitter.com/riipandi'
                   className='text-base font-medium text-brand-600 hover:text-brand-400'
                   newTab
                 >
@@ -41,7 +41,7 @@ const Maintenance = () => {
         <footer className='flex-shrink-0 w-full px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
           <nav className='flex justify-center space-x-4'>
             <BasicLink href='https://aris.web.id' className='text-sm font-medium text-gray-500 hover:text-gray-600' newTab>
-              Homepage
+              Aris Ripandi
             </BasicLink>
             <span className='inline-block border-l border-gray-300' aria-hidden='true' />
             <BasicLink

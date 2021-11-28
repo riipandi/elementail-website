@@ -1,6 +1,6 @@
 {
-  "name": "@elementail/website",
-  "description": "Just another UI Kit using Tailwind CSS",
+  "name": "headunit",
+  "description": "Headless Content Management System powered by Next.js",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {

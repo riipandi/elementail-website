@@ -1,11 +1,11 @@
 export const siteMeta = {
-  defaultTitle: 'Elementail',
-  description: `Just another UI Kit using Tailwind CSS`,
+  defaultTitle: 'Headunit',
+  description: `Headless Content Management System powered by Next.js`,
   imageUrl: '/images/og-image.png',
   twitterUsername: '@riipandi',
 
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
-  maintenance: process.env.MAINTENANCE_MODE || false,
+  maintenance: process.env.MAINTENANCE_MODE || true,
 
   socials: {
     GitHub: 'https://github.com/riipandi',
